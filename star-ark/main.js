@@ -67,6 +67,8 @@ const start = async () => {
 
     const captcha = answers.name
 
+    console.log(captcha)
+
     let data = await request({
         url: 'https://h5.stararknft.art/api/Box/detailed',
         method: 'POST',
